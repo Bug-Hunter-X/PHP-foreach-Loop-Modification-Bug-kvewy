@@ -1,0 +1,2 @@
+# PHP foreach Loop Modification Bug
+This repository demonstrates a subtle but common bug in PHP involving the modification of an array during a foreach loop.  The example shows how using `unset()` within the loop can lead to unexpected index skipping and incorrect results.  A more robust solution using `array_filter()` is provided.
